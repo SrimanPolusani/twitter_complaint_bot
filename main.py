@@ -33,7 +33,7 @@ class TwitterComplaintBot:
             self.up_down_speed.append(speed.text)
 
     def message_creator(self):
-        message = "Hey Airtel! My internet very low. Why? Download speed is just {} Mbps and Upload speed is {} Mbps. @airtelindia FIX IT NOW!!!!".format(
+        message = "Hey Airtel! My internet is very slow. Why? Download speed is just {} Mbps and Upload speed is {} Mbps. @airtelindia FIX IT NOW!!!!".format(
             self.up_down_speed[2], self.up_down_speed[3])
         return message
 
